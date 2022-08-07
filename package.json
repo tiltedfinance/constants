@@ -1,12 +1,12 @@
 {
   "name": "@tiltedfinance/constants",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Constants for Tilted.Finance infrastructure",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "generate-types": "typechain --target=ethers-v5 --out-dir ./src/typechain-types './src/abis/*.json'",
-    "build": "npm run generate-types && tsc",
+    "build": "npm run generate-types && tsc && cp -r src/abis dist",
     "prepare": "npm run build",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
