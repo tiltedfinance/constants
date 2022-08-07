@@ -1,11 +1,16 @@
 {
   "name": "@tiltedfinance/constants",
   "version": "1.0.0",
-  "description": "Constants for tilted.finance infrastructure",
-  "main": "index.js",
+  "description": "Constants for Tilted.Finance infrastructure",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "generate-types": "typechain --target=ethers-v5 --out-dir ./src/typechain-types './src/abis/*.json'",
+    "build": "npm run generate-types && tsc",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tiltedfinance/constants.git"
@@ -15,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/tiltedfinance/constants/issues"
   },
-  "homepage": "https://github.com/tiltedfinance/constants#readme"
+  "homepage": "https://github.com/tiltedfinance/constants#readme",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^10.1.0",
+    "@types/node": "^18.6.4",
+    "typechain": "^8.1.0",
+    "typescript": "^4.7.4"
+  }
 }
