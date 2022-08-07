@@ -1,0 +1,19 @@
+{
+  "name": "@tiltedfinance/constants",
+  "version": "1.0.0",
+  "description": "Constants for tilted.finance infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiltedfinance/constants.git"
+  },
+  "author": "Ivan Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiltedfinance/constants/issues"
+  },
+  "homepage": "https://github.com/tiltedfinance/constants#readme"
+}
