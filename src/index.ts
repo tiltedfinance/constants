@@ -2,8 +2,8 @@ import _devConstants from "./devConstants";
 import _prodConstants from "./prodConstants";
 import { TiltedFinanceEnvironment } from "./types";
 
-import type * as contractTypes from './typechain-types';
-export type { contractTypes };
+import type * as contracts from './typechain-types';
+export { contracts };
 
 export enum TiltedFinanceEnvironmentType {
   DEV,
