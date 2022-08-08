@@ -4,10 +4,10 @@ const devConstants: TiltedFinanceEnvironment = {
   tiltChain: {
     chainId: 42,
     chainSlug: 'kovan',
-    tiltDistributorAddress: '0xae776beb6a8e7907796ca425c921fd350171c370',
+    tiltDistributorAddress: '0xee80a0cffa49b0e6aa9504eb3e1a9d86e5fc44aa',
     tiltTokenAddress: '0x031852B8dE042B3f40C4012F085De0C203F173CA',
-    tiltDistributorTimeLockAddress: '',
-    tiltDistributorTimeLockProposerAddress: '',
+    tiltDistributorTimeLockAddress: '0xCfd672B265C81f7eC0898E6Fea5B64Ac8D46FCDb',
+    tiltDistributorTimeLockProposerAddress: '0x8ed19f62a263398d49b80689d1d31624e7ebeac0',
     developerVestingWalletAddress: '',
     treasuryContractAddress: '',
   },
@@ -28,7 +28,7 @@ const devConstants: TiltedFinanceEnvironment = {
     blocksForNextProposalUpdate: 220000,
   },
   publicEndpoints: {
-    merkleTreeAPI: 'https://merkle-distribution-dev.tilted.finance',
+    merkleTreeAPI: 'https://merkletree-dev.tilted.finance',
     TiltEventsSubgraphAPI: 'https://api.thegraph.com/subgraphs/name/tiltedfinance/tiltedfinance-accounts',
 
     tiltedInterface: 'https://appdev.tilted.finance',
