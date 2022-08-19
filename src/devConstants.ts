@@ -24,8 +24,8 @@ const devConstants: TiltedFinanceEnvironment = {
     tiltBatchRegistryPublisherAddress: '0xb5128c483fa56d15613d7afd8310cd29e9486a17',
   },
   merkleTree: {
-    blocksPerDistributionUpdate: 300000,
-    blocksForNextProposalUpdate: 220000,
+    blocksPerDistributionUpdate: 50000, // 27 hours
+    blocksForNextProposalUpdate: 50000,
   },
   publicEndpoints: {
     merkleTreeAPI: 'https://merkletree-dev.tilted.finance',
