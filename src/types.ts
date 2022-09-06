@@ -47,6 +47,12 @@ export interface TiltedFinanceEnvironment {
 
     /** Address of the event publisher for TiltEvents */
     tiltEventsPublisherAddress: string
+
+    /** Address of the TiltMerkleRootEvents contract */
+    tiltMerkleRootEventsAddress: string
+
+    /** Address of the event publisher for TiltMerkleRootEvents */
+    tiltMerkleRootEventsPublisherAddress: string
   },
 
   /** Information about the chain where player events BATCHES are stored */

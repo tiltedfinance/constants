@@ -16,6 +16,8 @@ const devConstants: TiltedFinanceEnvironment = {
     chainSlug: 'harmony',
     tiltEventsAddress: '0x7b5b5c0A9Aa22504e8Dd25177ad16f1CC69A0164',
     tiltEventsPublisherAddress: '0xb241a2882c624a31f94faecb7991ba33ca01d1e6',
+    tiltMerkleRootEventsAddress: '0x26f4A59dbfa18757C38c8bb02A8de5447D946b7B',
+    tiltMerkleRootEventsPublisherAddress: '0x72ad9bd6fa5711da0e519f250c219f5e82c141e5',
   },
   batchesChain: {
     chainId: 80001,
