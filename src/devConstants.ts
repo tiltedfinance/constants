@@ -14,15 +14,15 @@ const devConstants: TiltedFinanceEnvironment = {
   eventsChain: {
     chainId: 1666600000,
     chainSlug: 'harmony',
-    tiltEventsAddress: '0x7b5b5c0A9Aa22504e8Dd25177ad16f1CC69A0164',
+    tiltEventsAddress: '0x634c6cba1b7dad47fbf862a4b11eac18e226b157',
     tiltEventsPublisherAddress: '0xb241a2882c624a31f94faecb7991ba33ca01d1e6',
-    tiltMerkleRootEventsAddress: '0x26f4A59dbfa18757C38c8bb02A8de5447D946b7B',
+    tiltMerkleRootEventsAddress: '0x0459426323216Dff19f6791a03C224fADf75E3E8',
     tiltMerkleRootEventsPublisherAddress: '0x72ad9bd6fa5711da0e519f250c219f5e82c141e5',
   },
   batchesChain: {
     chainId: 80001,
     chainSlug: 'polygon-mumbai',
-    tiltBatchRegistryAddress: '0xFBAE238BCD58A416b3eab8B823b5599eC306fe4f',
+    tiltBatchRegistryAddress: '0x82c2c54efa7532231FB22a3A0Da8dC41DcB6b265',
     tiltBatchRegistryPublisherAddress: '0xb5128c483fa56d15613d7afd8310cd29e9486a17',
   },
   merkleTree: {
@@ -36,8 +36,8 @@ const devConstants: TiltedFinanceEnvironment = {
     tiltedInterface: 'https://appdev.tilted.finance',
     tiltedAPI: 'https://apidev.tilted.finance',
 
-    tiltedScanAPI: 'https://apidev.tiltedscan.io',
-    tiltedScanInterface: 'https://dev.tiltedscan.io',
+    tiltedExplorerAPI: 'https://explorer-api-dev.tilted.finance',
+    tiltedExplorerInterface: 'https://explorerdev.tilted.finance',
   }
 }
 

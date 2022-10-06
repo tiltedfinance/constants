@@ -36,8 +36,8 @@ const prodConstants: TiltedFinanceEnvironment = {
     tiltedInterface: 'https://app.tilted.finance',
     tiltedAPI: 'https://api.tilted.finance',
 
-    tiltedScanAPI: 'https://api.tiltedscan.io',
-    tiltedScanInterface: 'https://tiltedscan.io',
+    tiltedExplorerAPI: 'https://explorer.tilted.finance',
+    tiltedExplorerInterface: 'https://explorer-api.tilted.finance',
   }
 }
 

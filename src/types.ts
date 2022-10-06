@@ -94,9 +94,9 @@ export interface TiltedFinanceEnvironment {
     /* API for mining matches and verifying address */
     tiltedAPI: string,
 
-    /* API for TiltedFinance scanner */
-    tiltedScanAPI: string,
-    /* Interface for TiltedFinance scanner */
-    tiltedScanInterface: string,
+    /* API for TitltedFinance explorer */
+    tiltedExplorerAPI: string,
+    /* Interface for TiltedFinance explorer */
+    tiltedExplorerInterface: string,
   }
 }
